@@ -1,0 +1,69 @@
+
+.div1 p{
+    color: red;
+}
+
+.div2 p:first-child{
+    color: green;
+}
+
+.div3 p, .div3 .h2{
+    color: aqua;
+}
+
+.div-exe2{
+    background-color: wheat;
+    /*code vào phần bên dưới*/ 
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .div-exe3{
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    /*  code vào phần bên dưới  */
+
+    border: 3px solid rgb(57, 129, 177);
+    border-radius: 16px;
+  }
+
+  #a >div {
+    background:wheat;
+    /*  code vào phần bên dưới   */
+     margin: 50px 60px 50px 40px;
+  }
+  
+  #a{
+    /* Không code vào đây */
+    border:1px solid black
+  }
+
+
+  .div-exe4{
+    background: red;
+    display: inline;
+  }
+
+  #span1{
+    background: red;
+  }
+  #span2{
+    display: inline-block;
+    width: 500px;
+    background:yellow;
+  }
+
+  #span3{
+    display: block;
+    background: red;
+  }
+  .div{
+    background: blue;
+  }
